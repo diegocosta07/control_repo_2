@@ -1,5 +1,5 @@
 class profile::r10k {
-  class {'r10k:
+  class {'r10k':
     remote => 'https://github.com/diegocosta07/control_repo_2.git',
   }
   class {'r10k::webhook::config':
